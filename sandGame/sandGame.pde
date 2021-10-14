@@ -11,7 +11,7 @@ void setup()
 {
   size(600, 600);
 
-  particles.add(new Particle1(0, 0));
+  //particles.add(new Particle1(0, 0));
   cols = width/gridScale;
   rows = height/gridScale;
   //frameRate(3);
@@ -19,7 +19,7 @@ void setup()
 
 void draw()
 {
-  println(isMousePressed);
+  //println(isMousePressed);
   isMousePressed = false;
   for (int i = 0; i < cols; i++)
   {
