@@ -3,13 +3,13 @@ ArrayList<Particle2> waterParts = new ArrayList<Particle2>();
 boolean isMousePressed;
 boolean rmbPressed = false;
 boolean lmbPressed = false;
-int gridScale = 6;
+int gridScale = 8;
 
 int cols, rows;
 
 void setup()
 {
-  size(600, 600);
+  size(1400, 1000);
 
   //particles.add(new Particle1(0, 0));
   cols = width/gridScale;
